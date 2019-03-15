@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app01';
+  pdfSrc = 'assets/test.pdf';
+  
 }
