@@ -9,4 +9,7 @@ export class AppComponent {
   title = 'app01';
   pdfSrc = 'assets/test.pdf';
   
+  PDFView_MouseUp(e):void{
+    console.log(e);
+  }
 }

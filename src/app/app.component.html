@@ -23,7 +23,7 @@
         </div>
 
         <div class="col" style="background-color:#333">
-            <pdf-viewer [src]="pdfSrc" [render-text]="true" style="display: block;"></pdf-viewer>
+            <pdf-viewer [src]="pdfSrc" (mouseup)='PDFView_MouseUp($event)' [render-text]="true" style="display: block;"></pdf-viewer>
         </div>        
     </div>
 </div>
