@@ -8,8 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app01';
   pdfSrc = 'assets/test.pdf';
-  
+  selectedText = '';
+
   PDFView_MouseUp(e):void{
     console.log(e);
+    this.selectedText = document.getSelection().toLocaleString();
   }
 }
